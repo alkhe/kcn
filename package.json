@@ -1,0 +1,39 @@
+{
+  "main": "lib/index.html",
+  "name": "kcn",
+  "window": {
+    "toolbar": false
+  },
+  "description": "A lightweight, cross-platform client for Kancolle.",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nw .",
+    "test": ":"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://edge@github.com/edge/kcn"
+  },
+  "keywords": [
+    "kancolle",
+    "client",
+    "flux",
+    "react",
+    "node-webkit",
+    "nw"
+  ],
+  "author": "synchronous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edge/kcn/issues"
+  },
+  "homepage": "https://github.com/edge/kcn",
+  "dependencies": {
+    "alt": "^0.14.5",
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^4.0.0"
+  }
+}
